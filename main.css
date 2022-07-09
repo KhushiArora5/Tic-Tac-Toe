@@ -1,0 +1,108 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    font-size: 14px;
+    color: rgb(18, 204, 133);
+    font-family: sans-serif;
+}
+
+.main
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.row
+{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.head
+{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.message
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.board
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 45px auto;
+    width: 400px;
+    justify-content: center;
+}
+
+.boxs
+{
+    height: 125px;
+    width: 125px;
+    border: 1px solid #000;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 75px;
+    line-height: 75px;
+}
+
+.boxs:nth-child(3n + 1) 
+{
+    border-left: none;
+}
+
+.boxs:first-child,
+.boxs:nth-child(2),
+.boxs:nth-child(3) 
+{
+    border-top: none;
+}
+
+.boxs:nth-child(3n + 3) 
+{
+    border-right: none;
+}
+
+.boxs:last-child,
+.boxs:nth-child(8),
+.boxs:nth-child(7) 
+{
+   border-bottom: none;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_font
+{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer
+{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
